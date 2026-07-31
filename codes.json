@@ -1,0 +1,728 @@
+[
+  {
+    "code": "000660",
+    "symbol": "000660",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "005930",
+    "symbol": "005930",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "042700",
+    "symbol": "042700",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "007660",
+    "symbol": "007660",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "058470",
+    "symbol": "058470",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "357780",
+    "symbol": "357780",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "240810",
+    "symbol": "240810",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "036930",
+    "symbol": "036930",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "000990",
+    "symbol": "000990",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "039030",
+    "symbol": "039030",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "067310",
+    "symbol": "067310",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "373220",
+    "symbol": "373220",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "006400",
+    "symbol": "006400",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "247540",
+    "symbol": "247540",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "003670",
+    "symbol": "003670",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "051910",
+    "symbol": "051910",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "066970",
+    "symbol": "066970",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "278280",
+    "symbol": "278280",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "005070",
+    "symbol": "005070",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "137400",
+    "symbol": "137400",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "078600",
+    "symbol": "078600",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "015760",
+    "symbol": "015760",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "034020",
+    "symbol": "034020",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "052690",
+    "symbol": "052690",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "051600",
+    "symbol": "051600",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "083650",
+    "symbol": "083650",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "032820",
+    "symbol": "032820",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "105840",
+    "symbol": "105840",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "094820",
+    "symbol": "094820",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "006910",
+    "symbol": "006910",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "317770",
+    "symbol": "317770",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "012450",
+    "symbol": "012450",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "079550",
+    "symbol": "079550",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "047810",
+    "symbol": "047810",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "064350",
+    "symbol": "064350",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "272210",
+    "symbol": "272210",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "103140",
+    "symbol": "103140",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "010820",
+    "symbol": "010820",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "067390",
+    "symbol": "067390",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "361390",
+    "symbol": "361390",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "003570",
+    "symbol": "003570",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "329180",
+    "symbol": "329180",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "010140",
+    "symbol": "010140",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "042660",
+    "symbol": "042660",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "009540",
+    "symbol": "009540",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "011200",
+    "symbol": "011200",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "028670",
+    "symbol": "028670",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "005880",
+    "symbol": "005880",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "097230",
+    "symbol": "097230",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "075580",
+    "symbol": "075580",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "010620",
+    "symbol": "010620",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "207940",
+    "symbol": "207940",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "068270",
+    "symbol": "068270",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "196170",
+    "symbol": "196170",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "237690",
+    "symbol": "237690",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "000100",
+    "symbol": "000100",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "128940",
+    "symbol": "128940",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "006280",
+    "symbol": "006280",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "069620",
+    "symbol": "069620",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "145020",
+    "symbol": "145020",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "326030",
+    "symbol": "326030",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "005380",
+    "symbol": "005380",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "277810",
+    "symbol": "277810",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "454910",
+    "symbol": "454910",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "108490",
+    "symbol": "108490",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "098460",
+    "symbol": "098460",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "117730",
+    "symbol": "117730",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "090710",
+    "symbol": "090710",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "004380",
+    "symbol": "004380",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "348340",
+    "symbol": "348340",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "056190",
+    "symbol": "056190",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "010950",
+    "symbol": "010950",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "096770",
+    "symbol": "096770",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "078930",
+    "symbol": "078930",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "036460",
+    "symbol": "036460",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "047050",
+    "symbol": "047050",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "267250",
+    "symbol": "267250",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "001440",
+    "symbol": "001440",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "010120",
+    "symbol": "010120",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "112610",
+    "symbol": "112610",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "018000",
+    "symbol": "018000",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "105560",
+    "symbol": "105560",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "055550",
+    "symbol": "055550",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "086790",
+    "symbol": "086790",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "316140",
+    "symbol": "316140",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "032830",
+    "symbol": "032830",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "000810",
+    "symbol": "000810",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "006800",
+    "symbol": "006800",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "005940",
+    "symbol": "005940",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "138040",
+    "symbol": "138040",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "024110",
+    "symbol": "024110",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "352820",
+    "symbol": "352820",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "259960",
+    "symbol": "259960",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "041510",
+    "symbol": "041510",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "035900",
+    "symbol": "035900",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "122870",
+    "symbol": "122870",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "251270",
+    "symbol": "251270",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "263750",
+    "symbol": "263750",
+    "market": "KOSDAQ",
+    "currency": "KRW"
+  },
+  {
+    "code": "253450",
+    "symbol": "253450",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "035760",
+    "symbol": "035760",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "035720",
+    "symbol": "035720",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "000720",
+    "symbol": "000720",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "047040",
+    "symbol": "047040",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "375500",
+    "symbol": "375500",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "006360",
+    "symbol": "006360",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "028260",
+    "symbol": "028260",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "294870",
+    "symbol": "294870",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "009410",
+    "symbol": "009410",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "035420",
+    "symbol": "035420",
+    "market": "KOSPI",
+    "currency": "KRW"
+  },
+  {
+    "code": "NVDA.O",
+    "symbol": "NVDA.O",
+    "market": "NASDAQ",
+    "currency": "USD"
+  },
+  {
+    "code": "AAPL.O",
+    "symbol": "AAPL.O",
+    "market": "NASDAQ",
+    "currency": "USD"
+  },
+  {
+    "code": "MSFT.O",
+    "symbol": "MSFT.O",
+    "market": "NASDAQ",
+    "currency": "USD"
+  },
+  {
+    "code": "GOOGL.O",
+    "symbol": "GOOGL.O",
+    "market": "NASDAQ",
+    "currency": "USD"
+  },
+  {
+    "code": "AMZN.O",
+    "symbol": "AMZN.O",
+    "market": "NASDAQ",
+    "currency": "USD"
+  },
+  {
+    "code": "META.O",
+    "symbol": "META.O",
+    "market": "NASDAQ",
+    "currency": "USD"
+  },
+  {
+    "code": "TSLA.O",
+    "symbol": "TSLA.O",
+    "market": "NASDAQ",
+    "currency": "USD"
+  },
+  {
+    "code": "AVGO.O",
+    "symbol": "AVGO.O",
+    "market": "NASDAQ",
+    "currency": "USD"
+  },
+  {
+    "code": "AMD.O",
+    "symbol": "AMD.O",
+    "market": "NASDAQ",
+    "currency": "USD"
+  },
+  {
+    "code": "NFLX.O",
+    "symbol": "NFLX.O",
+    "market": "NASDAQ",
+    "currency": "USD"
+  },
+  {
+    "code": "JPM",
+    "symbol": "JPM",
+    "market": "NYSE",
+    "currency": "USD"
+  },
+  {
+    "code": "V",
+    "symbol": "V",
+    "market": "NYSE",
+    "currency": "USD"
+  }
+]

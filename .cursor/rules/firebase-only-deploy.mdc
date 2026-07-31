@@ -1,0 +1,11 @@
+---
+description: Deploy to Firebase Hosting only; never Cloud Run
+alwaysApply: true
+---
+
+# Deploy policy
+
+- Deploy **Firebase Hosting only** (`firebase deploy --only hosting:...`).
+- Do **not** run `gcloud run deploy`, Cloud Run source builds, or Cloud Run revisions unless the user explicitly asks.
+- Existing Hosting rewrites to Cloud Run may stay as-is; just do not redeploy those services.
+- Frontend/data changes: update static files and Firebase Hosting only.
