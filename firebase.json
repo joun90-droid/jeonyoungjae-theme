@@ -13,25 +13,10 @@
       "requirements.txt",
       "generate_all.py",
       "build_app.py",
-      "expand_content.py"
-    ],
-    "rewrites": [
-      {
-        "source": "/api/**",
-        "run": {
-          "serviceId": "theme-app",
-          "region": "asia-northeast3"
-        }
-      }
+      "expand_content.py",
+      "ads.txt"
     ],
     "headers": [
-      {
-        "source": "/ads.txt",
-        "headers": [
-          { "key": "Content-Type", "value": "text/plain; charset=utf-8" },
-          { "key": "Cache-Control", "value": "public, max-age=300" }
-        ]
-      },
       {
         "source": "/robots.txt",
         "headers": [

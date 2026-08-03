@@ -180,39 +180,42 @@
     });
   }
 
+  function applyPrice(payload) {
+    const p = (payload.prices || {})[stock.code];
+    if (!p) return;
+    const cur = p.currency || stock.currency || "KRW";
+    if (p.price == null) {
+      document.getElementById("livePrice").textContent = "—";
+    } else if (cur === "USD") {
+      document.getElementById("livePrice").textContent =
+        "$" + Number(p.price).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    } else {
+      document.getElementById("livePrice").textContent =
+        Number(p.price).toLocaleString("ko-KR") + "원";
+    }
+    const chg = p.changeRate;
+    const el = document.getElementById("liveChg");
+    if (chg == null) {
+      el.textContent = "—";
+      el.className = "price-chg flat";
+    } else {
+      el.textContent = `${chg > 0 ? "+" : ""}${Number(chg).toFixed(2)}%`;
+      el.className = "price-chg " + (chg > 0 ? "up" : chg < 0 ? "down" : "flat");
+    }
+    document.getElementById("liveTime").textContent =
+      (p.liveAt || payload.updatedAt || "").slice(11, 19) || "—";
+  }
+
   function fetchPrice() {
-    fetch("/api/prices", { credentials: "omit" })
-      .then((r) => r.json())
-      .then((payload) => {
-        const p = (payload.prices || {})[stock.code];
-        if (!p) return;
-        const cur = p.currency || stock.currency || "KRW";
-        if (p.price == null) {
-          document.getElementById("livePrice").textContent = "—";
-        } else if (cur === "USD") {
-          document.getElementById("livePrice").textContent =
-            "$" + Number(p.price).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-        } else {
-          document.getElementById("livePrice").textContent =
-            Number(p.price).toLocaleString("ko-KR") + "원";
-        }
-        const chg = p.changeRate;
-        const el = document.getElementById("liveChg");
-        if (chg == null) {
-          el.textContent = "—";
-          el.className = "price-chg flat";
-        } else {
-          el.textContent = `${chg > 0 ? "+" : ""}${Number(chg).toFixed(2)}%`;
-          el.className = "price-chg " + (chg > 0 ? "up" : chg < 0 ? "down" : "flat");
-        }
-        document.getElementById("liveTime").textContent = (p.liveAt || payload.updatedAt || "").slice(11, 19) || "—";
-      })
-      .catch(() => {
-        document.getElementById("livePrice").textContent = "시세 연결 실패";
-      });
+    ThemeLivePrices.subscribe((payload) => {
+      applyPrice(payload);
+      if (!payload.prices?.[stock.code]?.price && payload.error) {
+        document.getElementById("livePrice").textContent = "재연결 중…";
+      }
+    });
+    ThemeLivePrices.startAuto([stock], ThemeLivePrices.REFRESH_MS || 20000);
   }
 
   renderCharts();
   fetchPrice();
-  setInterval(fetchPrice, 15000);
 })();

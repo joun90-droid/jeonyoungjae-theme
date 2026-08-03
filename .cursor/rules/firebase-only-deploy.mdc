@@ -1,11 +1,17 @@
 ---
-description: Deploy to Firebase Hosting only; never Cloud Run
+description: Always use GitHub backup + Firebase Hosting only
 alwaysApply: true
 ---
 
-# Deploy policy
+# Deploy & backup policy
 
-- Deploy **Firebase Hosting only** (`firebase deploy --only hosting:...`).
-- Do **not** run `gcloud run deploy`, Cloud Run source builds, or Cloud Run revisions unless the user explicitly asks.
-- Existing Hosting rewrites to Cloud Run may stay as-is; just do not redeploy those services.
-- Frontend/data changes: update static files and Firebase Hosting only.
+## Required for every app (new and existing)
+
+1. **GitHub**: Keep the project in a GitHub repo under `joun90-droid`. After meaningful changes, commit and `git push`. New apps: `git init` → `gh repo create` → push before or with first deploy.
+2. **Firebase Hosting only**: Deploy with `firebase deploy --only hosting:...` (or hosting target). Do **not** run `gcloud run deploy` / Cloud Run builds unless the user explicitly asks.
+3. Never commit secrets (`.env`, credentials). Use `.gitignore`.
+
+## Reminders
+
+- AdSense registration ≠ code backup. Live site = Firebase. Source backup = GitHub.
+- Prefer repo names matching the Firebase site id when possible (e.g. `jeonyoungjae-theme`).
